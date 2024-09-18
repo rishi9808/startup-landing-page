@@ -8,7 +8,11 @@ export const Hero = () => {
     <section className="h-[492px] flex items-center" style={{
       backgroundImage: `url(${startsBg.src})`
     }}>
+     
       <div className="container relative">
+        
+
+        
       <Particles
         className="absolute inset-0"
         quantity={100}
@@ -29,6 +33,7 @@ export const Hero = () => {
         bg-white text-transparent bg-clip-text text-center
         bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(7,32,138,.7))]">AstraBiz</h1>
         <p className="text-lg text-white/70 mt-5 text-center">Your company in digital marketplace, with your own website meets whatsapp marketing and seo tools</p>
+       
         <div className="flex justify-center mt-5">
         <Button>Contact Us</Button>
         </div>
