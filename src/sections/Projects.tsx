@@ -13,14 +13,14 @@ const Projects = () => {
         <span className="text-blue-300">recent projects</span>
       </p>
       <div
-        className="flex flex-wrap items-center justify-center
-        p-4 gap-x-24 gap-y-8 mt-6"
+        className="lg:grid lg:grid-cols-2 flex flex-wrap items-center justify-center
+        p-10 gap-x-24 gap-y-8 mt-6"
       >
         {projects.map(
           ({ id, title, des, img, iconLists, link }): JSX.Element => {
             return (
               <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center
-              justify-center sm:w-[570px] w-[80vw]">
+              justify-center sm:w-[570px] w-[80vw] ">
                 <PinContainer title={title} href={link}>
                     <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw]
                     overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
