@@ -8,7 +8,7 @@ import { Testimonials } from "@/sections/Testimonials";
 export default function Home() {
   return (
     <main
-      className="container overflow-hidden overflow-x-hidden"
+      className="container"
     >
       <Header />
       <Hero />
