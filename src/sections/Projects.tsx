@@ -28,7 +28,7 @@ const Projects = () => {
                         bg-[#13162d] ">
                             <img src="../assets/product-image.png" alt="" />
                         </div>
-                        <img src="" alt={title} className="z-10 absolute bottom-0"/>
+                        <img src="https://www.techfunnel.com/wp-content/uploads/2021/10/web-application.png" alt={title} className="z-10 absolute bottom-0"/>
                     </div>
                     <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                         {title}

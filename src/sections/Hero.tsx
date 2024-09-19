@@ -19,7 +19,7 @@ export const Hero = () => {
         ease={80}
         refresh
       />
-      <GridPattern
+      {/* <GridPattern
         width={90}
         height={90}
         x={-1}
@@ -28,7 +28,7 @@ export const Hero = () => {
         className={cn(
           "[mask-image:radial-gradient(300px_circle_at_center,white)] h-[250px]",
         )}
-      />
+      /> */}
         <h1 className="text-8xl font-semibold tracking-tighter
         bg-white text-transparent bg-clip-text text-center
         bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(7,32,138,.7))]">AstraBiz</h1>
