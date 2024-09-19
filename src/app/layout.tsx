@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(inter.className,"bg-black text-white antialiased")}>{children}</body>
+      <body className={twMerge(inter.className,"bg-black text-white antialiased")}>{children}
+        <Analytics />
+      </body>
+
     </html>
   );
 }
