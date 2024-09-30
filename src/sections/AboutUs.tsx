@@ -17,7 +17,7 @@ const AboutUs = () => {
         </div>
         <div className="mt-16 md:flex items-center justify-center gap-20 font-semibold">
           <p>Unique Technologies and Modern Approach</p>
-          <p className="my-4 lg:mt-0 ">Customer Satisfaction is our top priority</p>
+          <p className="my-4 lg:my-0 ">Customer Satisfaction is our top priority</p>
           <p>We provide the best services in the market</p>
         </div>
     </div>
