@@ -10,8 +10,8 @@ const words =
 
 const Services = () => {
   return (
-    <div className="container">
-      <h1 className=" p-2 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-2xl font-bold leading-none text-transparent">
+    <div className="container mt-40">
+      <h1 className=" p-2 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-2xl lg:text-5xl font-bold leading-none text-transparent">
         Our Expertise
       </h1>
       <div className="  lg:mt-10 lg:mx-32">
