@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="my-10 container">
       <h1 className=" p-2 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-2xl font-semibold leading-none  text-transparent">
-        The last digital agency you'll ever need
+        The last digital agency you &apos;ll ever need
       </h1>
       <div className="  lg:mt-10 lg:mx-32">
         <TextGenerateEffect
