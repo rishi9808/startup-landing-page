@@ -43,7 +43,7 @@ export const Testimonials = () => {
       </p>
 
       <div className="flex flex-col items-center justify-center gap-y-10 mt-20 overflow-hidden ">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee pauseOnHover  className="[--duration:20s]">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}

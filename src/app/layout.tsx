@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Jost } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
+import { Header } from "@/sections/Header";
 
-
-const inter = Inter({ subsets: ["latin"] });
+const jost = Jost({
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "AI Startup Landing Page",
@@ -19,10 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(inter.className,"bg-black text-white antialiased")}>{children}
+      <body
+        className={twMerge(jost.className, "bg-black text-white antialiased")}
+      >
+        <Header />
+        {children}
         <Analytics />
       </body>
-
     </html>
   );
 }

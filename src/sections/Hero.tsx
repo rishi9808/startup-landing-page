@@ -1,37 +1,28 @@
 import Button from "@/components/Button";
-import startsBg from "@/assets/stars.png"
-import GridPattern from "@/components/magicui/grid-pattern";
-import { cn } from "@/lib/utils";
-import Particles from "@/components/magicui/particles";
 export const Hero = () => {
   return (
-    <section className="h-[492px] flex items-center" style={{
-      backgroundImage: `url(${startsBg.src})`
-    }}>
-      <div className="container relative">
-      <Particles
-        className="absolute inset-0"
-        quantity={100}
-        ease={80}
-        refresh
-      />
-      {/* <GridPattern
-        width={90}
-        height={90}
-        x={-1}
-        y={-1}
-        strokeDasharray={"4 2"}
-        className={cn(
-          "[mask-image:radial-gradient(300px_circle_at_center,white)] h-[250px]",
-        )}
-      /> */}
-        <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter
+    <section className=" flex items-center w-full">
+      <div className="bg-[url('/images/art-top-cropp.jpg')] bg-cover py-10 w-full h-[35rem] overflow-hidden">
+        <div className="container relative ">
+          <h3 className="text-5xl font-bold text-center p-10 drop-shadow-xl">
+            AstraBiz
+          </h3>
+          <h1
+            className="text-5xl md:text-8xl font-semibold tracking-tighter
         bg-white text-transparent bg-clip-text text-center
-        bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(7,32,138,.7))]">AstraBiz</h1>
-        <p className="text-lg text-white/70 mt-5 text-center">Your company in digital marketplace, with your own website meets whatsapp marketing and seo tools</p>
-       
-        <div className="flex justify-center mt-5">
-        <Button>Contact Us</Button>
+        bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(7,32,138,.7))]"
+          >
+            WE BUILD DIGITAL EXPERIENCES
+          </h1>
+          <div className="flex flex-col items-center justify-center mt-8 md:mt-10">
+            <Button>Contact Us</Button>
+
+            <div className="md:flex mt-3 gap-x-20  lg:mt-10 text-center font-bold text-lg ">
+              <p >Websites</p>
+              <p>Branding</p>
+              <p>Digital Marketing</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
