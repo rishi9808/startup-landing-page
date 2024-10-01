@@ -17,18 +17,14 @@ const Projects = () => {
         gap-x-24 gap-y-8 mt-6"
       >
         {projects.map(
-          ({ id, title, des, img, iconLists, link }): JSX.Element => {
+          ({ id, title, des, img, link }): JSX.Element => {
             return (
               <div key={id} className="sm:h-[41rem] h-[30rem] lg:min-h-[32.5rem] flex items-center
               justify-center sm:w-[570px] w-[60vw] ">
                 <PinContainer title={title} href={link}>
                     <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw]
-                    overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
-                        <div className="relative w-full h-full overflow-hidden lg:rounded-3xl
-                        bg-[#13162d] ">
-                            <img src="../assets/product-image.png" alt="" />
-                        </div>
-                        <img src={img} alt={title} className="z-10 absolute bottom-0"/>
+                    overflow-hidden h-[30vh]  sm:h-[40vh] mb-10">
+                        <img src={img} alt={title} className="bottom-0 object-cover "/>
                     </div>
                     <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                         {title}
@@ -38,18 +34,6 @@ const Projects = () => {
                         {des}
                     </p>
                     <div className="flex items-center justify-between mt-7 mb-3">
-                      <div className="flex items-center">
-                        {iconLists.map((icon, index) => (
-                          <div key={index} className="border border-white/[0.2]
-                          rounded-full bg-black lg:w-10 lg:h-10 size-8
-                          flex justify-center items-center"
-                          style={{
-                            transform:`translateX(-${5*index*2})`}}>
-                            <img src={icon} alt="ic" className="p-2" />
-                          </div>
-
-                        ))}
-                      </div>
                       <div className="flex justify-center items-center">
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple-200">Check Live Site</p>
                         <FaLocationArrow className="ms-2"
