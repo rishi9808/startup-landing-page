@@ -1,7 +1,7 @@
 import Button from "@/components/Button";
 export const Hero = () => {
   return (
-    <section className=" flex items-center w-full">
+    <section className=" flex items-center w-full" id="hero">
       <div className="bg-[url('/images/art-top-cropp.jpg')] bg-cover py-10 w-full h-[35rem] overflow-hidden">
         <div className="container relative ">
           <h3 className="text-5xl font-bold text-center p-10 drop-shadow-xl">

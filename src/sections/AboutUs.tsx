@@ -6,7 +6,7 @@ const AboutUs = () => {
   const words =
     "We are a team of passionate developers building customized websites for your agency, be it any business having a digital presence is an important aspect";
   return (
-    <div className="mb-10 mt-32 container">
+    <div className="mb-10 mt-32 container" id="about">
       <h1 className=" p-2 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-2xl lg:text-5xl font-semibold leading-none  text-transparent">
         The last digital agency you&apos;ll ever need
       </h1>

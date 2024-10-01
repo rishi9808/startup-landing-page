@@ -53,7 +53,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-muted-foreground text-lg  leading-snug tracking-wide">
+        <div className=" dark:text-white text-muted-foreground text-lg  leading-snug tracking-wide text-center">
           {renderWords()}
         </div>
       </div>

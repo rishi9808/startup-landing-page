@@ -1,25 +1,8 @@
 import { DiscordLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
+import { TfiEmail } from 'react-icons/tfi'
 
 const footerNavs = [
-   {
-      label: 'Product',
-      items: [
-         {
-            href: '/',
-            name: 'Email Collection',
-         },
-         {
-            href: '/pricing',
-            name: 'Pricing',
-         },
-         {
-            href: '/faq',
-            name: 'FAQ',
-         },
-      ],
-   },
-
    {
       label: 'Community',
       items: [
@@ -28,11 +11,11 @@ const footerNavs = [
             name: 'Discord',
          },
          {
-            href: '/',
+            href: '/ ',
             name: 'Twitter',
          },
          {
-            href: 'mailto:hello@chatcollect.com',
+            href: 'mailto:rishikeshkaroth@gmail.com',
             name: 'Email',
          },
       ],
@@ -55,20 +38,16 @@ const footerNavs = [
 
 const footerSocials = [
    {
-      href: '',
-      name: 'Discord',
-      icon: <DiscordLogoIcon className="size-4" />,
+      href: 'mailto:rishikeshkaroth@gmail.com',
+      name: 'Email',
+      icon: <TfiEmail className="size-4" />,
    },
-   {
-      href: '',
-      name: 'Twitter',
-      icon: <TwitterLogoIcon className="size-4" />,
-   },
+   
 ]
 
 export function Footer() {
    return (
-      <footer>
+      <footer id='footer'>
          <div className="mx-auto w-full max-w-screen-xl xl:pb-2">
           <hr />
             <div className="gap-4 p-4 px-8 py-16 sm:pb-16 md:flex md:justify-between">

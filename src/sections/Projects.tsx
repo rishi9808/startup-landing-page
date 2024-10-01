@@ -4,7 +4,7 @@ import { PinContainer } from "@/components/ui/3d-pin";
 
 const Projects = () => {
   return (
-    <div className="container mt-40">
+    <div className="container mt-40" id="projects">
       <h1 className=" p-2 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-3xl lg:text-5xl font-bold leading-none text-transparent">
         Projects
       </h1>

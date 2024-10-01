@@ -13,7 +13,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="py-4 border-b border-white/15 md:border-none">
+    <header className="sticky top-0 z-50 bg-black py-4 border-b border-white/15 md:border-none">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto">
           <div>
@@ -25,16 +25,16 @@ export const Header = () => {
           {/* Navigation Links (Hidden on small screens) */}
           <div className="hidden md:block">
             <nav className="flex space-x-8 text-sm">
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#hero" className="text-white/70 hover:text-white transition">
                 Home
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#about" className="text-white/70 hover:text-white transition">
                 About
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#projects" className="text-white/70 hover:text-white transition">
                 Projects
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#footer" className="text-white/70 hover:text-white transition">
                 Contact Us
               </a>
             </nav>
@@ -57,16 +57,16 @@ export const Header = () => {
         {menuOpen && (
           <div className="mt-4 md:hidden">
             <nav className="flex flex-col space-y-4 text-sm text-center">
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#hero" className="text-white/70 hover:text-white transition">
                 Home
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#about" className="text-white/70 hover:text-white transition">
                 About
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#projects" className="text-white/70 hover:text-white transition">
                 Projects
               </a>
-              <a href="#" className="text-white/70 hover:text-white transition">
+              <a href="#footer" className="text-white/70 hover:text-white transition">
                 Contact Us
               </a>
               <Button>Contact Us</Button>
