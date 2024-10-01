@@ -21,7 +21,7 @@ const Projects = () => {
             return (
               <div key={id} className="sm:h-[41rem] h-[30rem] lg:min-h-[32.5rem] flex items-center
               justify-center sm:w-[570px] w-[60vw] ">
-                <PinContainer title={title} href={link}>
+                <PinContainer title={title} href={link} >
                     <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw]
                     overflow-hidden h-[30vh]  sm:h-[40vh] mb-10">
                         <img src={img} alt={title} className="bottom-0 object-cover "/>

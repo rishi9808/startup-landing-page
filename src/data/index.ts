@@ -29,7 +29,7 @@ export const projects = [
       des: "Greenink.pro is a Edutech platform that offers a wide range of courses and mentorship for students and professionals.",
       img: "./images/greenink.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "greenink.pro",
+      link: "https://www.greenink.pro/",
     },
     {
       id: 4,
