@@ -22,23 +22,10 @@ const Services = () => {
           className="text-center lg:text-start text-2xl mb-10 font-normal text-muted-foreground"
         />
       </div>
-      <div className="md:grid grid-cols-3 gap-20 mt-20">
+      <div className="md:grid grid-cols-3  mt-20">
         <div className="relative flex flex-col  w-full  items-center justify-center overflow-hidden rounded-lg  px-9 py-5 md:shadow-xl my-5">
           <img
-            src="./images/e1.jpg"
-            className="rounded-tl-3xl rounded-br-3xl mb-3 h-40 object-cover"
-          />
-          <div className="flex">
-            <img src={webDevIcon.src} alt="web" className="size-8 mr-4" />
-            <span className="text-xl font-semibold">Web development</span>
-            {/* <BorderBeam size={80} duration={10} delay={9} /> */}
-          </div>
-        </div>
-      
-
-        <div className="relative flex flex-col  w-full  items-center justify-center overflow-hidden rounded-lg  px-9 py-5 md:shadow-xl my-5">
-          <img
-            src="./images/e2.jpg"
+            src="./images/seo.jpeg"
             className="rounded-tl-3xl rounded-br-3xl mb-3  h-40 object-cover"
           />
           <div className="flex">
@@ -50,7 +37,19 @@ const Services = () => {
 
         <div className="relative flex flex-col  w-full  items-center justify-center overflow-hidden rounded-lg  px-9 py-5 md:shadow-xl my-5">
           <img
-            src="./images/e3.jpg"
+            src="./images/e1.jpg"
+            className="rounded-tl-3xl rounded-br-3xl mb-3 h-40 object-cover"
+          />
+          <div className="flex">
+            <img src={webDevIcon.src} alt="web" className="size-8 mr-4" />
+            <span className="text-xl font-semibold">Web development</span>
+            {/* <BorderBeam size={80} duration={10} delay={9} /> */}
+          </div>
+        </div>
+
+        <div className="relative flex flex-col  w-full  items-center justify-center overflow-hidden rounded-lg  px-9 py-5 md:shadow-xl my-5">
+          <img
+            src="./images/dm.webp"
             className="rounded-tl-3xl rounded-br-3xl mb-3 h-40 object-cover"
           />
           <div className="flex">
