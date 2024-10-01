@@ -7,13 +7,21 @@ export const projects = [
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://autoqueen.in/",
     },
+    // {
+    //   id: 2,
+    //   title: "FlowTech",
+    //   des: "Flowtech started in 2007 as a trading & contracting company and focusing mainly on interior fit out jobs. 2016 we have expanded by securing renowned business associates which has broadened our design, technical and supply base.",
+    //   img: "./images/flowtech.jpg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    //   link: "https://flowtech.me/",
+    // },
     {
       id: 2,
-      title: "FlowTech",
-      des: "Flowtech started in 2007 as a trading & contracting company and focusing mainly on interior fit out jobs. 2016 we have expanded by securing renowned business associates which has broadened our design, technical and supply base.",
-      img: "./images/flowtech.jpg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://flowtech.me/",
+      title: "Varna Photography",
+      des: "A beautiful landing page for a wedding photography company with a gallery of images.",
+      img: "./images/varna.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://varna-pink.vercel.app/",
     },
     {
       id: 3,
@@ -31,5 +39,6 @@ export const projects = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://coffee-landing-page-two.vercel.app/",
     },
+    
   ];
   
