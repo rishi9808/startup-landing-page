@@ -14,7 +14,7 @@ export const Header = () => {
 
   // handle contact us button redirect to whatsapp
   const handleContactUs = () => {
-    window.open("https://wa.me/917025761022&text=Hello%20AstraBiz,%20I%20would%20like%20to%20know%20more%20about%20your%20services.", "_blank");
+    window.open("https://wa.me/917025761022?text=Hello%20AstraBiz,%20I%20would%20like%20to%20know%20more%20about%20your%20services.", "_blank");
   };
 
   return (

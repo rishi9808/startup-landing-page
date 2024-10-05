@@ -11,7 +11,7 @@ const footerNavs = [
             name: 'Address: AstraBiz , Mizone Office, Kannur',
          },
          {
-            href: 'https://wa.me/917025761022&text=Hello%20AstraBiz,%20I%20would%20like%20to%20know%20more%20about%20your%20services.',
+            href: 'https://wa.me/917025761022?text=Hello%20AstraBiz,%20I%20would%20like%20to%20know%20more%20about%20your%20services.',
             name: 'Whatsapp : +91 7025761022',
          },
          {
