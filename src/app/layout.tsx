@@ -10,8 +10,8 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "AI Startup Landing Page",
-  description: "A landing page for an AI startup created with Frontend Tribe",
+  title: "AstraBiz",
+  description: "AstraBiz is a web development company that helps businesses grow online.",
 };
 
 export default function RootLayout({
