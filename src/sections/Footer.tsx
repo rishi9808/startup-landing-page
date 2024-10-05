@@ -1,19 +1,11 @@
-import { DiscordLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { TfiEmail } from 'react-icons/tfi'
+import LogoIcon from "@/assets/logo.svg";
 
 const footerNavs = [
    {
       label: 'Community',
       items: [
-         {
-            href: '/',
-            name: 'Discord',
-         },
-         {
-            href: '/ ',
-            name: 'Twitter',
-         },
          {
             href: 'mailto:rishikeshkaroth@gmail.com',
             name: 'Email',
@@ -53,10 +45,7 @@ export function Footer() {
             <div className="gap-4 p-4 px-8 py-16 sm:pb-16 md:flex md:justify-between">
                <div className="mb-12 flex flex-col gap-4">
                   <Link href="/" className="flex items-center gap-2">
-                     <img
-                        src="https://nyxbui.design/icon.png"
-                        className="text-primary size-8"
-                     />
+                     <LogoIcon className="w-8 h-8 border rounded-lg" />
                      <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
                         AstraBiz
                      </span>

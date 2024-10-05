@@ -1,4 +1,11 @@
+"use client";
 import Button from "@/components/Button";
+
+// handle contact us button redirect to whatsapp
+const handleContactUs = () => {
+  window.open("https://wa.me/917025761022", "_blank");
+};
+
 export const Hero = () => {
   return (
     <section className=" flex items-center w-full" id="hero">
@@ -15,7 +22,9 @@ export const Hero = () => {
             WE BUILD DIGITAL EXPERIENCES
           </h1>
           <div className="flex flex-col items-center justify-center mt-8 md:mt-10">
-            <Button>Contact Us</Button>
+            <Button
+            onClick={handleContactUs}
+            >Contact Us</Button>
 
             <div className="md:flex mt-3 gap-x-20  lg:mt-10 text-center font-bold text-lg ">
               <p >Websites</p>

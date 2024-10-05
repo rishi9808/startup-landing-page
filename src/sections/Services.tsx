@@ -1,5 +1,3 @@
-import { BorderBeam } from "@/components/magicui/border-beam";
-import wtspImg from "@/assets/whatsapp_3938058.png";
 import digitalMarketingIcon from "@/assets/social-media.png";
 import webDevIcon from "@/assets/web-development.png";
 import seoIcon from "@/assets/search-engine-optimization.png";

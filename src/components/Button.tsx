@@ -1,6 +1,6 @@
-const Button = (props: React.PropsWithChildren) => {
+const Button = (props: { onClick: () => void; children: React.ReactNode }) => {
   return (
-    <div>
+    <div onClick={props.onClick}>
       <button className="relative py-3 px-5 rounded-lg font-medium text-sm bg-gradient-to-b from-[#131a30] to-[#3c32c1] shadow-[0px_0px_12px_#8c45ff] ">
         <div className="absolute inset-0 rounded-lg">
           <div className="rounded-lg border border-white/20 absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
