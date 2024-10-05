@@ -4,11 +4,19 @@ import LogoIcon from "@/assets/logo.svg";
 
 const footerNavs = [
    {
-      label: 'Community',
+      label: 'Contact Us',
       items: [
          {
+            href: 'https://www.google.com/maps/place/Mizone+%2F+Malabar+Innovation+Entrepreneurship+Zone/@11.9840837,75.364086,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba43f54946f7cdd:0x20d73d44cd69f732!8m2!3d11.9840837!4d75.3666609!16s%2Fg%2F11h3nn3bmp?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D',
+            name: 'Address: AstraBiz , Mizone Office, Kannur',
+         },
+         {
+            href: 'https://wa.me/917025761022&text=Hello%20AstraBiz,%20I%20would%20like%20to%20know%20more%20about%20your%20services.',
+            name: 'Whatsapp : +91 7025761022',
+         },
+         {
             href: 'mailto:rishikeshkaroth@gmail.com',
-            name: 'Email',
+            name: 'Email : rishikeshkaroth@gmail.com',
          },
       ],
    },
