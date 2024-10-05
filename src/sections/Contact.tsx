@@ -10,7 +10,6 @@ export const Contact = () => {
           We are here to help you
         </p>
 
-        // create a contact form
         <div className="container mt-20">
           <form className="flex flex-col gap-4 max-w-lg mx-auto">
             <input
