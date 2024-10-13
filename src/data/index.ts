@@ -29,7 +29,7 @@ export const projects = [
       des: "A beautiful landing page for a coffee company with a gallery of food images.",
       img: "./images/coffee.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://coffee-landing-page-two.vercel.app/",
+      link: "https://alowishus-catering.vercel.app/",
     },
     {
       id: 5,
